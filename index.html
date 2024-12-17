@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kopi Tentang Kita</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <div class="container">
+        <h1>Kopi Tentang Kita</h1>
+        <p>Let the aroma of coffee tell our story.</p>
+      </div>
+    </header>
+
+    <main>
+      <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+          <div class="item">
+            <h3>Espresso</h3>
+            <p>Rich and bold, served hot or iced.</p>
+          </div>
+          <div class="item">
+            <h3>Cappuccino</h3>
+            <p>A perfect balance of espresso, steamed milk, and foam.</p>
+          </div>
+          <div class="item">
+            <h3>Latte</h3>
+            <p>Smooth and creamy, perfect for any day.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+          <img src="images/1.jpg" alt="Coffee Cup 1" />
+          <img src="images/2.jpg" alt="Coffee Cup 2" />
+          <img src="images/3.jpg" alt="Coffee Beans" />
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Kopi Tentang Kita. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
